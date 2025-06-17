@@ -1,0 +1,36 @@
+.container {
+    background-color: #f7f8fc;
+    padding: 2rem 2rem 0 2rem;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    max-width: 80rem;
+    justify-self: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

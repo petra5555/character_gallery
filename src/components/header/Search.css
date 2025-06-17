@@ -1,0 +1,27 @@
+.search-box {
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #c1cce7;
+    padding: 1rem 1.5rem;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.search-box svg {
+    height: 1rem;
+    width: auto;
+    fill: #386fb7;
+}
+
+.search-box input {
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left: 1rem;
+    font-size: unset;
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+.card {
+    border: 2px solid #c6d3f4;
+    border-radius: 10px;
+    list-style: none;
+    padding: 10px;
+    background-color: #f2f6ff;
+    transition: all 0.5s ease;
+}
+
+.image-container {
+    width: auto;
+    height: 17rem;
+    overflow: hidden;
+}
+
+.image-container img {
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.card h2 {
+    color: #161c29;
+    margin: 10px 0;
+    height: 3.8rem;
+}
+
+.card p {
+    color: #343b1b;
+    margin: 5px 0;
+}
+
+.card:hover {
+
+    transform: scale(1.1);
+}
+
+.status {
+    font-weight: 900;
+    font-size: small;
+    border: 2px solid;
+    padding: 1px 3px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.alive {
+    color: green;
+}
+
+.dead {
+    color: red;
+}
+
+.unknown {
+    color: rgb(180, 180, 15);
+}
